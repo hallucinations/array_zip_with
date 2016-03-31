@@ -1,8 +1,8 @@
 # @author Vasanth Balakrishnan <vasantheb@gmail.com>
 class Array
   # @overload zip_with(*args, &block)
-  #    Zips the input arrays with `self` and invokes block with the elements of
-  #    the zipped array.
+  #    Zips the input arrays with `self` and invokes block with the elements
+  #    of the zipped array.
   #    @param [Array] args One or more arrays
   #    @example With one input array
   #       a = [1, 2, 3]
@@ -26,7 +26,7 @@ class Array
   #       a.zip_with([4, 5, 6], [7, 8, 9], :+) # => [12, 15, 18]
   #    @return [Array]
   # @raise [ArgumentError] If there is no symbol or a block as the last
-  # parameter
+  #   parameter.
   def zip_with(*args)
     return zip(*args).map(&Proc.new) if block_given?
     operator = args.pop
