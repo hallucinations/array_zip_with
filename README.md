@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/array_zip_with.svg)](https://badge.fury.io/rb/array_zip_with)
 [![Build Status](https://travis-ci.org/hallucinations/array_zip_with.svg?branch=master)](https://travis-ci.org/hallucinations/array_zip_with)
 [![Code Climate](https://codeclimate.com/github/hallucinations/array_zip_with/badges/gpa.svg)](https://codeclimate.com/github/hallucinations/array_zip_with)
 
