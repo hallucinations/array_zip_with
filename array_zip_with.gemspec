@@ -16,8 +16,12 @@ Gem::Specification.new do |spec|
   eof
   spec.homepage      = 'https://github.com/hallucinations/array_zip_with'
   spec.license       = 'MIT'
-  spec.files         = Dir['Rakefile', '{bin,lib,man,test,spec}/**/*',
-      'README', 'LICENSE*'] & `git ls-files -z`.split("\0")
+  spec.files         = Dir[
+    'Rakefile',
+    '{bin,lib,man,test,spec}/**/*',
+    'README',
+    'LICENSE*'
+  ] & `git ls-files -z`.split("\0")
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
