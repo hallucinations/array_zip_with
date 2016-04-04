@@ -10,7 +10,7 @@ class Array
   #    @example With multiple input arrays
   #       a = [1, 2, 3]
   #       a.zip_with([4, 5, 6], [7, 8, 9]) do |x, y, z|
-  #         y - x * z
+  #         (y - x) * z
   #       end # => [21, 24, 27]
   #    @return [Array]
   # @overload zip_with(*args, operator)
