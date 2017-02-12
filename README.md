@@ -1,6 +1,7 @@
 [![Gem Version](https://badge.fury.io/rb/array_zip_with.svg)](https://badge.fury.io/rb/array_zip_with)
 [![Build Status](https://travis-ci.org/hallucinations/array_zip_with.svg?branch=master)](https://travis-ci.org/hallucinations/array_zip_with)
 [![Code Climate](https://codeclimate.com/github/hallucinations/array_zip_with/badges/gpa.svg)](https://codeclimate.com/github/hallucinations/array_zip_with)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/boriscy/bonsaiERP/blob/dev/MIT-LICENSE.md)
 
 # Array#zip_with
 
